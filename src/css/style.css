@@ -1,0 +1,51 @@
+
+.wrapper {
+    margin-top: 70px;
+}
+ 
+ .validator-header {
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+ }
+ 
+ .card-validator {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+ 
+ .card-validator__cards-images {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-bottom: 30px;
+ }
+ 
+ .card-validator__image-block {
+	margin-right: 10px;
+ }
+ 
+ .card-validator__image-block:last-child {
+	margin-right: 0px;
+ }
+ 
+ .card-validator__image {
+	object-fit: contain;
+	width: 50px;
+	opacity: 0.2;
+ }
+ 
+ .card-validator__input {
+      border: 1px solid gray;
+      border-radius: 4px;
+      font: inherit;
+      margin-right: 18px;
+      padding-left: 5px;
+      width: 400px;
+ }
+ 
+ .card-validator__check-status {
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+ }
