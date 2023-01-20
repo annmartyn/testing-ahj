@@ -37,15 +37,19 @@
  }
  
  .card-validator__input {
-      border: 1px solid gray;
-      border-radius: 4px;
-      font: inherit;
-      margin-right: 18px;
-      padding-left: 5px;
-      width: 400px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font: inherit;
+    margin-right: 18px;
+    padding-left: 5px;
+    width: 400px;
+    height: 40px;
  }
  
  .card-validator__check-status {
 	margin-top: 20px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: inherit;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 2px;
  }
